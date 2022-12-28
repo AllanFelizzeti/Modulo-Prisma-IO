@@ -5,16 +5,16 @@ const prisma = new PrismaClient();
 async function main(){
   const result = await prisma.courses.create({
     data: {
-      name: "Curso de Java",
-      duration: 500,
-      description: "Curso de Java 17",
+      name: "React Native ",
+      duration: 300,
+      description: "Ignite Mobile",
       teacher: {
         connectOrCreate: {
           where: {
-            name: "Daniele Leão Evangelista",
+            name: "Rodrigo Gonçalvez",
           },
           create: {
-            name: "Daniele Leão Evangelista",
+            name: "Rodrigo Gonçalvez",
           },
         },
       },
