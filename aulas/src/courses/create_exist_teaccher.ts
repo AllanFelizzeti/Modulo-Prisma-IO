@@ -6,11 +6,11 @@ async function main() {
   const result = await prisma.courses.create({
     data: {
       duration: 300,
-      name: "Curso de React Native",
+      name: "Curso de React ",
       description: "Curso do Ignite",
       teacher: {
         connect: {
-          id: "3bd2a117-d210-42f1-bf41-b23b49dabefc"
+          id: "2d707e2c-cdef-4a68-a1ea-bea2269cb3c3"
         },
       },
     },    

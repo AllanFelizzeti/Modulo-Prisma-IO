@@ -8,19 +8,19 @@ async function  main() {
       course: {
         create: {
           duration: 200,
-          name: "NodeJs",
-          description: "Ignite Back-end",
+          name: "JavaScrypt",
+          description: "Curso de JS",
           teacher: {
             create: {
-              name: "Diego Fernades",
+              name: "Mayk Brito",
             },
           },
         },
       },
       module: {
         create: {
-          name: "Prisma IO",
-          description: "OMR que falicita sua vida"
+          name: "Iniciabte em Js ",
+          description: "Comecando"
         },
       },
     },

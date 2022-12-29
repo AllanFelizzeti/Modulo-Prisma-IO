@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 async function main(){
   const result = await prisma.courses.create({
     data: {
-      name: "React Native ",
+      name: "React ",
       duration: 300,
       description: "Ignite Mobile",
       teacher: {
